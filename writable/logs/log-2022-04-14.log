@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-14 08:21:00 --> Call to undefined function App\Models\orderBy()
+#0 /var/www/html/cimaster/app/Controllers/Backend/AdminController.php(33): App\Models\Admin->getAdmins()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Backend\AdminController->index()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

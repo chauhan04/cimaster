@@ -1,0 +1,82 @@
+CRITICAL - 2022-04-27 00:05:07 --> There is no data to update.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(162): CodeIgniter\Model->update()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-27 00:12:16 --> There is no data to update.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(163): CodeIgniter\Model->update()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-27 00:13:21 --> There is no data to update.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(162): CodeIgniter\Model->update()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-27 00:32:59 --> There is no data to update.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(162): CodeIgniter\Model->update()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-27 00:38:58 --> Undefined variable: userdata
+#0 /var/www/html/cimaster/app/Models/User.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(162): App\Models\User->changePassword()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-27 00:39:14 --> There is no data to update.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#3 /var/www/html/cimaster/app/Models/User.php(70): CodeIgniter\Model->update()
+#4 /var/www/html/cimaster/app/Controllers/Frontend/UserController.php(162): App\Models\User->changePassword()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\UserController->changepasswordsave()
+#6 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-27 01:55:24 --> Cannot declare class App\Controllers\Backend\ForgotpasswordController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-27 02:07:05 --> Cannot declare class App\Controllers\Backend\ForgotpasswordController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-27 02:14:18 --> Class 'App\Models\UserPasswordReset' not found
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Frontend\ForgotpasswordController->__construct()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-27 02:22:07 --> Call to undefined method App\Models\UsersPasswordReset::getUserByEmail
+#0 /var/www/html/cimaster/app/Controllers/Frontend/ForgotpasswordController.php(64): CodeIgniter\Model->__call()
+#1 /var/www/html/cimaster/app/Controllers/Frontend/ForgotpasswordController.php(37): App\Controllers\Frontend\ForgotpasswordController->sendPasswordResetLink()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\ForgotpasswordController->sendForgotLink()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-27 02:50:13 --> Call to undefined method App\Models\UsersPasswordReset::updateUserByAdmnid
+#0 /var/www/html/cimaster/app/Controllers/Frontend/ForgotpasswordController.php(164): CodeIgniter\Model->__call()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\ForgotpasswordController->resetpassword()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

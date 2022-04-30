@@ -1,0 +1,131 @@
+CRITICAL - 2022-04-22 01:18:36 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-22 01:20:55 --> Cannot declare class App\Controllers\Backend\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-22 01:28:31 --> Invalid file: layout/front-layout.php
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(23): view()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->aboutus()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 01:28:58 --> Invalid file: layout/front-layout.php
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(23): view()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->aboutus()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 01:30:34 --> Invalid file: layout/front-layout.php
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(23): view()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->aboutus()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 02:47:36 --> Invalid file: frontend/partial/header-main.php
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/cimaster/app/Views/layout/frontend-main-layout.php(62): view()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(214): include('/var/www/html/c...')
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#6 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#7 /var/www/html/cimaster/app/Controllers/Frontend/Home.php(10): view()
+#8 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\Home->index()
+#9 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-22 04:37:21 --> Undefined property: App\Controllers\Frontend\PageController::$load
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->subscribe()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 04:59:36 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(52): redirect()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->subscribe()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 05:02:51 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/cimaster/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(52): redirect()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->subscribe()
+#4 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 05:32:44 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:32:53 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:33:28 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:33:29 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:33:30 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:33:32 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:46:36 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:49:36 --> Undefined property: App\Controllers\Frontend\PageController::$session
+#0 /var/www/html/cimaster/app/Controllers/Frontend/PageController.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\PageController->contactemail()
+#2 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/cimaster/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/cimaster/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
