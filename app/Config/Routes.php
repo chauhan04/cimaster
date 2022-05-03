@@ -41,6 +41,8 @@ $routes->post('subscribe','Frontend\PageController::subscribe',['as'=>'subscribe
 $routes->group("", ['namespace' => 'App\Controllers\Frontend', 'filter' => 'loginFilter'],function($routes){
     $routes->get('login','LoginController::index',['as'=>'frontend.login']);
     $routes->post('login','LoginController::loginAuth',['as'=>'frontend.makelogin']);
+    $routes->get('register','RegisterController::index',['as'=>'frontend.register']);
+    $routes->post('register','RegisterController::register',['as'=>'frontend.makeregister']);
     $routes->get("forgotpassword", "ForgotpasswordController::forgotpassword",['as'=>'frontend.forgotpassword']);
     $routes->post("forgotpassword", "ForgotpasswordController::sendForgotLink",['as'=>'frontend.forgotpassword.link']);
     $routes->get("resetpassword/(:any)", "ForgotpasswordController::resetpasswordform/$1",['as'=>'frontend.resetpassword.form']);

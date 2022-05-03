@@ -32,6 +32,9 @@
                 <span class=""><a href="<?=route_to("frontend.forgotpassword")?>">I forgot my password</a></span>
               </div>
               <div class="text-center mt-4"><button type="submit" class="submit-btn">Sign In</button></div>
+              <div class="form-group mt-3 text-end">
+                <span class=""><a href="<?=route_to("frontend.register")?>">Don't have account, Sign Up</a></span>
+              </div>
             </form>
 
           </div>
